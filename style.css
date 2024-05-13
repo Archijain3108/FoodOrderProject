@@ -1,0 +1,220 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #dfc24e;
+}
+
+.brand {
+  font-family: 'Montserrat', monospace;
+  font-weight: bold; /* Make the text bold */
+  font-size: 26px; /* Increase the font size */
+  color: #c82333; /* Change the text color to a different color */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav .brand:hover {
+  background-color: transparent; /* Remove background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.container {
+  text-align: center;
+  color: #0f0e0e;
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif; /* Change the font family */
+}
+
+/* Adjustments for images */
+.container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.container2 {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.explore {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px; /* Add some padding around the cards */
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+  flex: 0 1 300px; /* Set a fixed width for each card */
+  margin: 10px; /* Add margin between cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a lifted effect */
+  border-radius: 10px; /* Round the corners of the cards */
+}
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img,
+.card6 img,
+.card7 img,
+.card8 img {
+  border-top-left-radius: 10px; /* Curve only the top left corner of the image */
+  border-top-right-radius: 10px; /* Curve only the top right corner of the image */
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Optional: Add hover effect */
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover,
+.card7:hover,
+.card8:hover {
+  transform: translateY(-5px); /* Move the card up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.centered {
+  color: #060606;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dil {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Add some gap between the items */
+  margin-top: 40px; /* Increase the top margin */
+}
+
+.dil1,
+.dil2,
+.dil3 {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}
+
+.image-container {
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.rounded-image {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+/* Optional: Add hover effect */
+.dil1:hover,
+.dil2:hover,
+.dil3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #c82333;
+}
+
+.container2 img {
+  display: inline-block;
+  margin: 10px;
+}
